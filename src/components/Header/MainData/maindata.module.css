@@ -1,0 +1,72 @@
+.mainDataCont{
+ 
+  /* background-color: blue; */
+}
+
+.navMenuCont{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.navDataCont{
+  /* border: solid 1px black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.mobileChevron{
+  display: block;
+}
+
+.webChevron{
+  display: none;
+}
+
+.navMainText{
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: normal;
+}
+
+.navLinkStyle{
+  text-decoration: none;
+}
+
+
+
+
+@media (min-width: 769px){
+
+  .navMenuCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navDataCont{
+    justify-content: flex-start;
+    gap: px;
+  }
+
+  .mobileChevron{
+    display: none;
+  }
+  
+  .webChevron{
+    display: block;
+  }
+
+  .navMainText{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+
+}

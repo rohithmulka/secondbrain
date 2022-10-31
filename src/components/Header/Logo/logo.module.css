@@ -1,0 +1,26 @@
+.mainCont{
+  /* background-color: red; */
+}
+
+.mobileLogo{
+  display: block;
+}
+
+.webLogo{
+  display: none;
+}
+
+
+
+/* media queries */
+@media (min-width: 769px){
+
+  .mobileLogo{
+    display: none;
+  }
+  
+  .webLogo{
+    display: block;
+  }
+
+}
